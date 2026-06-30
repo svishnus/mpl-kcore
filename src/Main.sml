@@ -27,6 +27,7 @@ struct
   fun run name =
     case name of
       "seq" => SeqKCore.coreness g
+    | "online" => OnlineKCore.coreness g
     | other => Util.die ("unknown -algo: " ^ other)
 
   val (core, runTime) = Util.getTime (fn () => run algo)

@@ -9,7 +9,7 @@
  * This is the ground-truth baseline against which every parallel variant is
  * checked. *)
 
-structure SeqKCore =
+structure SeqKCore :> KCORE =
 struct
   (* Imperative loop over the half-open range [lo, hi). *)
   fun for (lo, hi) (f : int -> unit) =

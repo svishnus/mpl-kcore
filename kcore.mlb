@@ -10,7 +10,9 @@ local
   lib/github.com/shwestrick/sml-splittable-random/sources.mlb
 in
   src/Graph.sml
+  src/KCORE.sml
   src/SeqKCore.sml
+  src/OnlineKCore.sml
   src/Checker.sml
   src/Main.sml
 end
