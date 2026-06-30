@@ -1,0 +1,6 @@
+package github.com/svishnusatish/mpl-kcore
+
+require {
+  github.com/mpllang/mpllib 0.6.0 #b0a478b060e20ca715c26dd564a127ac8dcc3a24
+  github.com/shwestrick/sml-splittable-random 0.2.0 #b9ef9752bb8dca1e0bf6fbdc53c3ed3a142a1035
+}

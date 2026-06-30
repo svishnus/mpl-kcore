@@ -1,0 +1,16 @@
+(* Build manifest for the parallel k-core decomposition program.
+ *
+ * Pulls in mpllib (sequences, SeqBasis, AdjacencyGraph, ForkJoin, MLton,
+ * CommandLineArgs, Benchmark, ...) and the splittable random library, then
+ * our own sources. Dependencies are placed in `local` so only our own
+ * top-level bindings are exported. *)
+
+local
+  lib/github.com/mpllang/mpllib/sources.mpl.mlb
+  lib/github.com/shwestrick/sml-splittable-random/sources.mlb
+in
+  src/Graph.sml
+  src/SeqKCore.sml
+  src/Checker.sml
+  src/Main.sml
+end

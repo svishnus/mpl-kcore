@@ -4,13 +4,7 @@
 
 - Include mpl lib and graph reading utils
 - Fix proper graph data structure
-- Get some inputs
- - RoadnetUSA
- - RMAT-50M
- - Orkut
- - LiveJournal
- - HCNS
- - GRID
+- Get some reasonably large inputs
 - Implement sequential baseline
 - Implement offline - Julienne
 - Implement online - with atomics

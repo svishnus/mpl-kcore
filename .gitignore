@@ -1,0 +1,12 @@
+# smlpkg-fetched dependencies (reproducible via `smlpkg sync`)
+/lib/
+
+# MLton/MPL build artifacts
+*.o
+/bin/
+kcore
+*.mlb.deps
+
+# editor / OS
+*.swp
+.DS_Store
