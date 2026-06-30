@@ -10,3 +10,7 @@ kcore
 # editor / OS
 *.swp
 .DS_Store
+
+# generated test graphs (regenerate with tools/gen_graph.py)
+/inputs/*.adj
+!/inputs/tiny.adj
